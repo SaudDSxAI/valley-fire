@@ -12,7 +12,7 @@ export default function Locations() {
     <div className="flex h-[100svh] flex-col overflow-hidden pt-16 md:pt-20">
       <div className="mx-auto w-full max-w-7xl shrink-0 px-4 pb-2 pt-4 md:px-8 md:pb-4 md:pt-8">
         <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Locations</p>
-        <h1 className="mt-1 font-display text-2xl leading-tight md:mt-1.5 md:text-5xl">Find your <em className="text-accent">nearest</em> EMBER</h1>
+        <h1 className="mt-1 font-display text-2xl leading-tight md:mt-1.5 md:text-5xl">Find your <em className="text-accent">nearest</em> VALLEY FIRE</h1>
       </div>
       <div className="min-h-0 flex-1 px-4 pb-20 md:px-8 md:pb-6">
         <Branches compact />

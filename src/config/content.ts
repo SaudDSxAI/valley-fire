@@ -21,7 +21,7 @@ export type Branch = {
 export const branches: Branch[] = [
   {
     slug: "mingora",
-    name: "EMBER Mingora",
+    name: "VALLEY FIRE Mingora",
     area: "Mingora",
     address: "Main GT Road, near Green Chowk, Mingora, Swat",
     phone: "+92 300 0000001",
@@ -36,7 +36,7 @@ export const branches: Branch[] = [
   },
   {
     slug: "saidu-sharif",
-    name: "EMBER Saidu Sharif",
+    name: "VALLEY FIRE Saidu Sharif",
     area: "Saidu Sharif",
     address: "Saidu Sharif Road, opposite Swat Museum, Swat",
     phone: "+92 300 0000002",
@@ -51,7 +51,7 @@ export const branches: Branch[] = [
   },
   {
     slug: "kalam",
-    name: "EMBER Kalam",
+    name: "VALLEY FIRE Kalam",
     area: "Kalam",
     address: "Kalam Bazaar, Main Road, Kalam, Swat",
     phone: "+92 300 0000003",
@@ -95,7 +95,7 @@ export const reviews = [
 export const about = {
   headline: "Born from fire. Rooted in Swat.",
   story:
-    "EMBER started in 2019 as a single wood-fired oven on GT Road. We wanted Swat to have fast food that was made slowly — dough rested for 48 hours, sauces made every morning, and meat from farms we know by name.",
+    "VALLEY FIRE started in 2019 as a single wood-fired oven on GT Road. We wanted Swat to have fast food that was made slowly — dough rested for 48 hours, sauces made every morning, and meat from farms we know by name.",
   milestones: [
     { year: "2019", text: "First oven fires up in Mingora" },
     { year: "2021", text: "Saidu Sharif branch opens" },
@@ -112,7 +112,7 @@ export const about = {
 };
 
 export const loyaltyTiers = [
-  { name: "Ember", points: "0+", perks: ["1 point per Rs 100", "Free birthday dessert", "Member-only deals"] },
+  { name: "Spark", points: "0+", perks: ["1 point per Rs 100", "Free birthday dessert", "Member-only deals"] },
   { name: "Flame", points: "1,500+", perks: ["1.25× points", "Free delivery on Fridays", "Early access to new items"] },
   { name: "Inferno VIP", points: "5,000+", perks: ["1.5× points", "Priority reservations", "Chef's table invites"] },
 ];

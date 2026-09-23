@@ -21,7 +21,12 @@ export function Hero() {
 
   return (
     <section ref={ref} className="relative flex min-h-[100svh] items-start overflow-hidden" aria-label="Welcome">
-      <motion.div className="absolute inset-0" style={reduceMotion ? undefined : { scale: videoScale, y: videoY }}>
+      {/* Mobile: portrait video shot specifically for narrow screens. */}
+      <motion.div className="absolute inset-0 md:hidden" style={reduceMotion ? undefined : { scale: videoScale, y: videoY }}>
+        <SmartVideo src={brand.media.heroVideoMobile} poster={brand.media.heroPosterMobile} eager className="h-full w-full" />
+      </motion.div>
+      {/* Desktop: original landscape video. */}
+      <motion.div className="absolute inset-0 hidden md:block" style={reduceMotion ? undefined : { scale: videoScale, y: videoY }}>
         <SmartVideo src={brand.media.heroVideo} poster={brand.media.heroPoster} eager className="h-full w-full" />
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/50 to-bg/20" />

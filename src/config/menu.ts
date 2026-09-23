@@ -91,7 +91,7 @@ const spiceLevel: OptionGroup = {
 
 export const menu: MenuItem[] = [
   // PIZZA
-  { id: "ember-supreme", name: "Ember Supreme", category: "pizza", price: 1290, kcal: 980,
+  { id: "ember-supreme", name: "Valley Fire Supreme", category: "pizza", price: 1290, kcal: 980,
     description: "Stone-fired dough, smoked chicken tikka, peppers, olives and mozzarella.",
     badges: ["Signature", "Bestseller"], allergens: ["Gluten", "Dairy"], tags: ["cheesy", "filling", "sharing"],
     options: [pizzaSize, pizzaExtras] },
@@ -114,7 +114,7 @@ export const menu: MenuItem[] = [
     badges: ["Spicy", "Signature"], allergens: ["Gluten", "Dairy", "Egg"], tags: ["spicy", "filling"],
     options: [burgerExtras, makeMeal] },
   { id: "classic-smash", name: "Classic Smash", category: "burgers", price: 790, kcal: 740,
-    description: "Two thin-crust beef patties, American cheese, pickles, Ember sauce.",
+    description: "Two thin-crust beef patties, American cheese, pickles, Valley Fire sauce.",
     badges: ["Bestseller"], allergens: ["Gluten", "Dairy", "Egg"], tags: ["filling", "cheesy", "classic"],
     options: [burgerExtras, makeMeal] },
   { id: "crispy-zinger", name: "Crispy Zinger", category: "burgers", price: 690, kcal: 690,
@@ -131,7 +131,7 @@ export const menu: MenuItem[] = [
     description: "Crispy wings tossed in buffalo or honey-chilli glaze.",
     badges: ["Spicy", "Bestseller"], allergens: ["Gluten"], tags: ["spicy", "sharing"],
     options: [spiceLevel] },
-  { id: "fried-bucket", name: "Ember Bucket (6 pc)", category: "chicken", price: 1490, kcal: 1500,
+  { id: "fried-bucket", name: "Valley Fire Bucket (6 pc)", category: "chicken", price: 1490, kcal: 1500,
     description: "Signature 11-spice fried chicken — crunchy outside, juicy inside.",
     badges: ["Signature"], allergens: ["Gluten", "Egg"], tags: ["sharing", "filling", "crispy"],
     options: [spiceLevel] },

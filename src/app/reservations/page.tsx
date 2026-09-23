@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ReservationForm } from "./ReservationForm";
 
-export const metadata: Metadata = { title: "Book a Table", description: "Reserve a table at EMBER in Mingora, Saidu Sharif or Kalam in under a minute." };
+export const metadata: Metadata = { title: "Book a Table", description: "Reserve a table at VALLEY FIRE in Mingora, Saidu Sharif or Kalam in under a minute." };
 
 export default function Reservations() {
   return (

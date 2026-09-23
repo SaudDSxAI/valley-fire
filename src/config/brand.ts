@@ -3,8 +3,8 @@
  * Change the name, colors, contact details and socials here. No code changes needed.
  */
 export const brand = {
-  name: "EMBER",
-  fullName: "EMBER Kitchen",
+  name: "VALLEY FIRE",
+  fullName: "VALLEY FIRE Kitchen",
   tagline: "Fired with Swat pride.",
   description:
     "Stone-fired pizza, smash burgers and crispy chicken — made fresh every day with local ingredients from the valley.",
@@ -12,7 +12,7 @@ export const brand = {
   region: "Khyber Pakhtunkhwa",
   country: "PK",
   currency: "Rs",
-  url: "https://ember-demo.example.com",
+  url: "https://valleyfire-demo.example.com",
 
   // Colors feed CSS variables (see globals.css). Swap these for a new client.
   colors: {
@@ -29,7 +29,7 @@ export const brand = {
     phone: "+92 300 0000000",
     phoneHref: "tel:+923000000000",
     whatsapp: "923000000000", // international format, no +
-    email: "hello@ember-demo.pk",
+    email: "hello@valleyfire-demo.pk",
   },
 
   socials: {
@@ -54,6 +54,8 @@ export const brand = {
   media: {
     heroVideo: "/media/hero.mp4",
     heroPoster: "/media/hero-poster.jpg",
+    heroVideoMobile: "/media/hero-mobile.mp4",
+    heroPosterMobile: "/media/hero-mobile-poster.jpg",
     chef: "/media/chef.jpg",
     interior: "/media/interior.jpg",
     ingredients: "/media/about-ingredients.jpg",

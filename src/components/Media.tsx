@@ -92,10 +92,20 @@ export function SmartVideo({
           onError={() => attemptedRef.current && setFailed(true)}
         />
       )}
-      {failed && label && (
-        <div className="absolute inset-0 flex items-end p-4">
-          <span className="text-[10px] uppercase tracking-[0.2em] text-white/50">{label} · video coming soon</span>
-        </div>
+      {failed && (
+        // If a video genuinely fails to load in a viewer's browser (bad
+        // network, an unsupported codec on some obscure device), fall back
+        // to the poster photo instead of leaving a blank void — it's a real
+        // branded image, not just an empty gradient. `label` still adds a
+        // small caption on top when given.
+        <>
+          {poster && <img src={poster} alt="" className="absolute inset-0 h-full w-full object-cover" />}
+          {label && (
+            <div className="absolute inset-0 flex items-end p-4">
+              <span className="text-[10px] uppercase tracking-[0.2em] text-white/50">{label} · video coming soon</span>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

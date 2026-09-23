@@ -32,7 +32,7 @@ type Ctx = {
 };
 
 const CartContext = createContext<Ctx | null>(null);
-const KEY = "ember-cart-v1";
+const KEY = "valleyfire-cart-v1";
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [lines, setLines] = useState<CartLine[]>([]);
